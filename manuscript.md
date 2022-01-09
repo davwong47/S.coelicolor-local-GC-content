@@ -13,7 +13,8 @@ The local GC content was then calculated using a sliding window of 100 KB and a 
 ## Results
 
 The mean of the local GC content is 72.1% with a standard deviation of 1.1.
+![**Variation in the local GC content of *S. coelicolor* A3(2).** Using a window size of 100 KB and a step size of 50 KB the local HC content has a mean of 72.1% and a standard deviation of 1.1.](local_gc_content.png)
 
-## Concludion
+## Conclusion
 
 There is little variation in the local GC content of *S. coelicolor* A3(2).
