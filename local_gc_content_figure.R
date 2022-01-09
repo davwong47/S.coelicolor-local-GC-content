@@ -2,6 +2,10 @@ library ("ggplot2")
 
 df = read.csv("local_gc_content.csv", header=T)
 
+mean(df$gc_content)
+
+sd(df$gc_content)
+
 g1 = ggplot(df, aes(x=middle, y=gc_content))
 g2 = g1 + geom_line()
 g3 = g2 + ylim(0, 100)
